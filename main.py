@@ -5,6 +5,7 @@ from nltk.tokenize import word_tokenize
 import pandas as pd
 import nltk
 from scipy.spatial import distance
+from scipy.linalg import triu
 
 # Initialize FastAPI application
 app = FastAPI()
